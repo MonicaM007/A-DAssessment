@@ -1,0 +1,19 @@
+package com.uos.ac.uk.ad;
+
+import com.uos.ac.uk.ad.LinkedList.Node;
+
+public class LinkedListMain {
+	
+	public void main(String[] args) {
+		LinkedList L = new LinkedList();
+		L.addAtFront(new Node(1));
+		L.addAtFront(new Node(2));
+		L.addAtFront(new Node(3));
+		L.addAtFront(new Node(4));
+		L.addAtEnd(new Node(5));
+		
+		L.print();
+	}
+}
+
+
